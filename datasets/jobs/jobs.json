@@ -1,0 +1,546 @@
+[
+    {
+        "id": "JOB-0001",
+        "title": "Indian Navy Officer Recruitment",
+        "department": "Indian Navy",
+        "description": "Official recruitment for the post of Officer in Indian Navy. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0002",
+        "title": "Railways Engineer Recruitment",
+        "department": "Railways",
+        "description": "Official recruitment for the post of Engineer in Railways. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0003",
+        "title": "State Police Technician Recruitment",
+        "department": "State Police",
+        "description": "Official recruitment for the post of Technician in State Police. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0004",
+        "title": "Education Department Teacher Recruitment",
+        "department": "Education Department",
+        "description": "Official recruitment for the post of Teacher in Education Department. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0005",
+        "title": "Health Ministry Nurse Recruitment",
+        "department": "Health Ministry",
+        "description": "Official recruitment for the post of Nurse in Health Ministry. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 30 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0006",
+        "title": "Indian Army Clerk Recruitment",
+        "department": "Indian Army",
+        "description": "Official recruitment for the post of Clerk in Indian Army. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0007",
+        "title": "Indian Navy Officer Recruitment",
+        "department": "Indian Navy",
+        "description": "Official recruitment for the post of Officer in Indian Navy. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0008",
+        "title": "Railways Engineer Recruitment",
+        "department": "Railways",
+        "description": "Official recruitment for the post of Engineer in Railways. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0009",
+        "title": "State Police Technician Recruitment",
+        "department": "State Police",
+        "description": "Official recruitment for the post of Technician in State Police. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0010",
+        "title": "Education Department Teacher Recruitment",
+        "department": "Education Department",
+        "description": "Official recruitment for the post of Teacher in Education Department. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 30 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0011",
+        "title": "Health Ministry Nurse Recruitment",
+        "department": "Health Ministry",
+        "description": "Official recruitment for the post of Nurse in Health Ministry. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0012",
+        "title": "Indian Army Clerk Recruitment",
+        "department": "Indian Army",
+        "description": "Official recruitment for the post of Clerk in Indian Army. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0013",
+        "title": "Indian Navy Officer Recruitment",
+        "department": "Indian Navy",
+        "description": "Official recruitment for the post of Officer in Indian Navy. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0014",
+        "title": "Railways Engineer Recruitment",
+        "department": "Railways",
+        "description": "Official recruitment for the post of Engineer in Railways. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0015",
+        "title": "State Police Technician Recruitment",
+        "department": "State Police",
+        "description": "Official recruitment for the post of Technician in State Police. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 30 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0016",
+        "title": "Education Department Teacher Recruitment",
+        "department": "Education Department",
+        "description": "Official recruitment for the post of Teacher in Education Department. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0017",
+        "title": "Health Ministry Nurse Recruitment",
+        "department": "Health Ministry",
+        "description": "Official recruitment for the post of Nurse in Health Ministry. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0018",
+        "title": "Indian Army Clerk Recruitment",
+        "department": "Indian Army",
+        "description": "Official recruitment for the post of Clerk in Indian Army. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0019",
+        "title": "Indian Navy Officer Recruitment",
+        "department": "Indian Navy",
+        "description": "Official recruitment for the post of Officer in Indian Navy. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0020",
+        "title": "Railways Engineer Recruitment",
+        "department": "Railways",
+        "description": "Official recruitment for the post of Engineer in Railways. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 30 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0021",
+        "title": "State Police Technician Recruitment",
+        "department": "State Police",
+        "description": "Official recruitment for the post of Technician in State Police. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0022",
+        "title": "Education Department Teacher Recruitment",
+        "department": "Education Department",
+        "description": "Official recruitment for the post of Teacher in Education Department. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0023",
+        "title": "Health Ministry Nurse Recruitment",
+        "department": "Health Ministry",
+        "description": "Official recruitment for the post of Nurse in Health Ministry. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0024",
+        "title": "Indian Army Clerk Recruitment",
+        "department": "Indian Army",
+        "description": "Official recruitment for the post of Clerk in Indian Army. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0025",
+        "title": "Indian Navy Officer Recruitment",
+        "department": "Indian Navy",
+        "description": "Official recruitment for the post of Officer in Indian Navy. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 30 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0026",
+        "title": "Railways Engineer Recruitment",
+        "department": "Railways",
+        "description": "Official recruitment for the post of Engineer in Railways. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0027",
+        "title": "State Police Technician Recruitment",
+        "department": "State Police",
+        "description": "Official recruitment for the post of Technician in State Police. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0028",
+        "title": "Education Department Teacher Recruitment",
+        "department": "Education Department",
+        "description": "Official recruitment for the post of Teacher in Education Department. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0029",
+        "title": "Health Ministry Nurse Recruitment",
+        "department": "Health Ministry",
+        "description": "Official recruitment for the post of Nurse in Health Ministry. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0030",
+        "title": "Indian Army Clerk Recruitment",
+        "department": "Indian Army",
+        "description": "Official recruitment for the post of Clerk in Indian Army. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 30 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0031",
+        "title": "Indian Navy Officer Recruitment",
+        "department": "Indian Navy",
+        "description": "Official recruitment for the post of Officer in Indian Navy. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 31 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0032",
+        "title": "Railways Engineer Recruitment",
+        "department": "Railways",
+        "description": "Official recruitment for the post of Engineer in Railways. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 32 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    },
+    {
+        "id": "JOB-0033",
+        "title": "State Police Technician Recruitment",
+        "department": "State Police",
+        "description": "Official recruitment for the post of Technician in State Police. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 33 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Passport Size Photo"
+        ]
+    },
+    {
+        "id": "JOB-0034",
+        "title": "Education Department Teacher Recruitment",
+        "department": "Education Department",
+        "description": "Official recruitment for the post of Teacher in Education Department. Must meet physical and educational criteria.",
+        "eligibility_criteria": [
+            "Indian Citizen",
+            "Age 18 - 34 years",
+            "Graduation / 12th Pass"
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Highest Education Certificate",
+            "Caste Certificate"
+        ]
+    }
+]

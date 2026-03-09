@@ -1,0 +1,2282 @@
+[
+    {
+        "id": "SCHOLAR-0001",
+        "title": "Post-Matric Fellowship 2025",
+        "provider": "UGC",
+        "education_level": "PhD / Research",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0002",
+        "title": "Post-Matric Scholarship 2025",
+        "provider": "UGC",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0003",
+        "title": "E-Kalyan Scholarship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "PhD / Research",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0004",
+        "title": "Saksham Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0005",
+        "title": "Saksham Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "Postgraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0006",
+        "title": "E-Kalyan Scholarship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0007",
+        "title": "Pre-Matric Assistance Scheme 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "PhD / Research",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0008",
+        "title": "Swami Vivekananda Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0009",
+        "title": "National Fellowship 2025",
+        "provider": "UGC",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0010",
+        "title": "Saksham Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Postgraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0011",
+        "title": "Merit-cum-Means Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "PhD / Research",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0012",
+        "title": "E-Kalyan Grant 2025",
+        "provider": "AICTE",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0013",
+        "title": "Merit-cum-Means Fellowship 2025",
+        "provider": "AICTE",
+        "education_level": "Post-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0014",
+        "title": "Central Sector Grant 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0015",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "UGC",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0016",
+        "title": "E-Kalyan Assistance Scheme 2025",
+        "provider": "UGC",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0017",
+        "title": "Pre-Matric Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Postgraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0018",
+        "title": "Saksham Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0019",
+        "title": "Post-Matric Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0020",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "AICTE",
+        "education_level": "Post-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0021",
+        "title": "E-Kalyan Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "Postgraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0022",
+        "title": "Saksham Assistance Scheme 2025",
+        "provider": "AICTE",
+        "education_level": "Undergraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0023",
+        "title": "Post-Matric Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "Post-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0024",
+        "title": "Pragati Scholarship 2025",
+        "provider": "Private Trust",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0025",
+        "title": "Pragati Grant 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Postgraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0026",
+        "title": "Pre-Matric Fellowship 2025",
+        "provider": "State Education Board",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0027",
+        "title": "E-Kalyan Scholarship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0028",
+        "title": "E-Kalyan Scholarship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Postgraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0029",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0030",
+        "title": "National Fellowship 2025",
+        "provider": "State Education Board",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0031",
+        "title": "Saksham Scholarship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Postgraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0032",
+        "title": "Pre-Matric Scholarship 2025",
+        "provider": "AICTE",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0033",
+        "title": "National Assistance Scheme 2025",
+        "provider": "UGC",
+        "education_level": "Post-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0034",
+        "title": "E-Kalyan Assistance Scheme 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Post-Matric",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0035",
+        "title": "Merit-cum-Means Scholarship 2025",
+        "provider": "UGC",
+        "education_level": "Postgraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0036",
+        "title": "Pragati Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0037",
+        "title": "E-Kalyan Grant 2025",
+        "provider": "State Education Board",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0038",
+        "title": "Merit-cum-Means Scholarship 2025",
+        "provider": "Private Trust",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0039",
+        "title": "Saksham Fellowship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Undergraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0040",
+        "title": "Pre-Matric Scholarship 2025",
+        "provider": "AICTE",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0041",
+        "title": "E-Kalyan Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0042",
+        "title": "Merit-cum-Means Fellowship 2025",
+        "provider": "UGC",
+        "education_level": "Post-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0043",
+        "title": "Pre-Matric Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "PhD / Research",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0044",
+        "title": "Pre-Matric Grant 2025",
+        "provider": "AICTE",
+        "education_level": "Postgraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0045",
+        "title": "Pre-Matric Grant 2025",
+        "provider": "State Education Board",
+        "education_level": "Undergraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0046",
+        "title": "Merit-cum-Means Scholarship 2025",
+        "provider": "Private Trust",
+        "education_level": "Postgraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0047",
+        "title": "Merit-cum-Means Fellowship 2025",
+        "provider": "AICTE",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0048",
+        "title": "Central Sector Grant 2025",
+        "provider": "State Education Board",
+        "education_level": "Undergraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0049",
+        "title": "Post-Matric Fellowship 2025",
+        "provider": "AICTE",
+        "education_level": "PhD / Research",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0050",
+        "title": "Merit-cum-Means Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0051",
+        "title": "Post-Matric Fellowship 2025",
+        "provider": "AICTE",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0052",
+        "title": "National Scholarship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Post-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0053",
+        "title": "E-Kalyan Fellowship 2025",
+        "provider": "UGC",
+        "education_level": "Undergraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0054",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "AICTE",
+        "education_level": "PhD / Research",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0055",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "AICTE",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0056",
+        "title": "Merit-cum-Means Fellowship 2025",
+        "provider": "UGC",
+        "education_level": "Postgraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0057",
+        "title": "E-Kalyan Assistance Scheme 2025",
+        "provider": "AICTE",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0058",
+        "title": "National Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0059",
+        "title": "E-Kalyan Grant 2025",
+        "provider": "State Education Board",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0060",
+        "title": "Pragati Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0061",
+        "title": "Post-Matric Grant 2025",
+        "provider": "AICTE",
+        "education_level": "PhD / Research",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0062",
+        "title": "Swami Vivekananda Grant 2025",
+        "provider": "AICTE",
+        "education_level": "Undergraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0063",
+        "title": "National Scholarship 2025",
+        "provider": "UGC",
+        "education_level": "Postgraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0064",
+        "title": "Pragati Assistance Scheme 2025",
+        "provider": "UGC",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0065",
+        "title": "E-Kalyan Fellowship 2025",
+        "provider": "State Education Board",
+        "education_level": "Undergraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0066",
+        "title": "Central Sector Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0067",
+        "title": "Swami Vivekananda Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0068",
+        "title": "Swami Vivekananda Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0069",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Postgraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0070",
+        "title": "National Scholarship 2025",
+        "provider": "UGC",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0071",
+        "title": "National Fellowship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0072",
+        "title": "Saksham Scholarship 2025",
+        "provider": "AICTE",
+        "education_level": "PhD / Research",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0073",
+        "title": "Swami Vivekananda Scholarship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "PhD / Research",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0074",
+        "title": "Pragati Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "Postgraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0075",
+        "title": "Swami Vivekananda Scholarship 2025",
+        "provider": "AICTE",
+        "education_level": "Post-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0076",
+        "title": "Pragati Grant 2025",
+        "provider": "UGC",
+        "education_level": "Undergraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0077",
+        "title": "Pragati Scholarship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0078",
+        "title": "E-Kalyan Grant 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Post-Matric",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0079",
+        "title": "Swami Vivekananda Fellowship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0080",
+        "title": "Pre-Matric Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Undergraduate",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0081",
+        "title": "Pragati Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0082",
+        "title": "National Scholarship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0083",
+        "title": "National Assistance Scheme 2025",
+        "provider": "Private Trust",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0084",
+        "title": "Post-Matric Scholarship 2025",
+        "provider": "Private Trust",
+        "education_level": "Post-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0085",
+        "title": "Pragati Assistance Scheme 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0086",
+        "title": "Merit-cum-Means Scholarship 2025",
+        "provider": "State Education Board",
+        "education_level": "Postgraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0087",
+        "title": "Pragati Assistance Scheme 2025",
+        "provider": "Private Trust",
+        "education_level": "Undergraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0088",
+        "title": "Saksham Grant 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0089",
+        "title": "Merit-cum-Means Fellowship 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Postgraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0090",
+        "title": "Swami Vivekananda Fellowship 2025",
+        "provider": "Private Trust",
+        "education_level": "Postgraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0091",
+        "title": "Saksham Fellowship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Undergraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0092",
+        "title": "Post-Matric Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "PhD / Research",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-11-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0093",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "Private Trust",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0094",
+        "title": "Swami Vivekananda Scholarship 2025",
+        "provider": "Private Trust",
+        "education_level": "PhD / Research",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0095",
+        "title": "Post-Matric Assistance Scheme 2025",
+        "provider": "Private Trust",
+        "education_level": "Undergraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0096",
+        "title": "Post-Matric Scholarship 2025",
+        "provider": "UGC",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0097",
+        "title": "Central Sector Scholarship 2025",
+        "provider": "UGC",
+        "education_level": "Post-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0098",
+        "title": "Pre-Matric Grant 2025",
+        "provider": "UGC",
+        "education_level": "PhD / Research",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0099",
+        "title": "Swami Vivekananda Scholarship 2025",
+        "provider": "State Education Board",
+        "education_level": "PhD / Research",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0100",
+        "title": "Merit-cum-Means Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "PhD / Research",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0101",
+        "title": "Merit-cum-Means Grant 2025",
+        "provider": "UGC",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0102",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "AICTE",
+        "education_level": "Undergraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0103",
+        "title": "Saksham Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0104",
+        "title": "E-Kalyan Assistance Scheme 2025",
+        "provider": "UGC",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0105",
+        "title": "Pragati Scholarship 2025",
+        "provider": "State Education Board",
+        "education_level": "Undergraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0106",
+        "title": "Merit-cum-Means Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Undergraduate",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0107",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "State Education Board",
+        "education_level": "Postgraduate",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0108",
+        "title": "National Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "PhD / Research",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0109",
+        "title": "Pre-Matric Scholarship 2025",
+        "provider": "AICTE",
+        "education_level": "Postgraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0110",
+        "title": "Central Sector Assistance Scheme 2025",
+        "provider": "UGC",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0111",
+        "title": "Merit-cum-Means Assistance Scheme 2025",
+        "provider": "Department of Higher Education",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b950000 per annum",
+        "last_date": "2026-07-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0112",
+        "title": "Merit-cum-Means Grant 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Undergraduate",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0113",
+        "title": "Swami Vivekananda Grant 2025",
+        "provider": "AICTE",
+        "education_level": "PhD / Research",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-10-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0114",
+        "title": "Pre-Matric Assistance Scheme 2025",
+        "provider": "State Education Board",
+        "education_level": "Postgraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-12-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0115",
+        "title": "Pre-Matric Fellowship 2025",
+        "provider": "State Education Board",
+        "education_level": "PhD / Research",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0116",
+        "title": "Saksham Scholarship 2025",
+        "provider": "Private Trust",
+        "education_level": "School (Class 1-10)",
+        "amount": "\u20b95000 per annum",
+        "last_date": "2026-05-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0117",
+        "title": "Central Sector Grant 2025",
+        "provider": "Private Trust",
+        "education_level": "PhD / Research",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-06-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 75% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0118",
+        "title": "Swami Vivekananda Fellowship 2025",
+        "provider": "State Education Board",
+        "education_level": "Postgraduate",
+        "amount": "\u20b925000 per annum",
+        "last_date": "2026-08-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 60% marks in previous examination.",
+            "Annual family income must be less than \u20b92 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0119",
+        "title": "E-Kalyan Fellowship 2025",
+        "provider": "Ministry of Minority Affairs",
+        "education_level": "Pre-Matric",
+        "amount": "\u20b910000 per annum",
+        "last_date": "2026-04-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b95 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    },
+    {
+        "id": "SCHOLAR-0120",
+        "title": "Saksham Assistance Scheme 2025",
+        "provider": "State Education Board",
+        "education_level": "Post-Matric",
+        "amount": "\u20b9100000 per annum",
+        "last_date": "2026-09-30",
+        "description": "Financial assistance to meritorious and deserving students.",
+        "eligibility": [
+            "Minimum 50% marks in previous examination.",
+            "Annual family income must be less than \u20b98 Lakhs."
+        ],
+        "documents_required": [
+            "Aadhaar",
+            "Marksheet",
+            "Income Certificate",
+            "Bank Details"
+        ]
+    }
+]

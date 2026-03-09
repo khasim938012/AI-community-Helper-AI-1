@@ -1,0 +1,3103 @@
+[
+    {
+        "id": "SCHEME-0001",
+        "title": "Mukhyamantri Kalyan Program",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0002",
+        "title": "Start-Up Kalyan Vikas",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0003",
+        "title": "Mukhyamantri Kalyan Yojana",
+        "department": "Ministry of Health",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "General",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0004",
+        "title": "Mukhyamantri Gramin Mission",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0005",
+        "title": "National Awas Yojana",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Pension",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Aadhaar Card",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0006",
+        "title": "National Suraksha Abhiyan",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Bank Passbook"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0007",
+        "title": "Kisan Suraksha Yojana",
+        "department": "Ministry of Education",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Income Certificate",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0008",
+        "title": "Pradhan Mantri Shiksha Program",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Income Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0009",
+        "title": "National Shiksha Yojana",
+        "department": "Ministry of Education",
+        "benefit_type": "Health Insurance",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Domicile Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0010",
+        "title": "Pradhan Mantri Shiksha Scheme 2020",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 54 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0011",
+        "title": "National Gramin Vikas",
+        "department": "Ministry of Education",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Caste Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0012",
+        "title": "Kisan Suraksha Nidhi",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Bank Passbook",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0013",
+        "title": "Deen Dayal Kalyan Nidhi",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 54 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0014",
+        "title": "Gruha Krishi Samman",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "Income Certificate",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0015",
+        "title": "Kisan Awas Vikas",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0016",
+        "title": "National Suraksha Samman",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Caste Certificate",
+            "Income Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0017",
+        "title": "National Swasthya Nidhi",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 59 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Bank Passbook",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0018",
+        "title": "Gruha Shiksha Yojana",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "General",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Bank Passbook",
+            "Caste Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0019",
+        "title": "Mukhyamantri Kalyan Vikas",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Pension",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0020",
+        "title": "Deen Dayal Kalyan Yojana 2020",
+        "department": "State Govt",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Income Certificate",
+            "PAN Card",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0021",
+        "title": "State Awas Program",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0022",
+        "title": "Pradhan Mantri Shiksha Yojana",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0023",
+        "title": "Mukhyamantri Awas Scheme",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Pension",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "PAN Card",
+            "Caste Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0024",
+        "title": "Kisan Awas Abhiyan",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Pension",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Caste Certificate",
+            "Bank Passbook",
+            "Aadhaar Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0025",
+        "title": "Deen Dayal Swasthya Scheme",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Passport Size Photo",
+            "Domicile Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0026",
+        "title": "Kisan Swasthya Program",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Aadhaar Card",
+            "Caste Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0027",
+        "title": "Mukhyamantri Suraksha Samman",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Income Certificate",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0028",
+        "title": "Start-Up Gramin Program",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Income Certificate",
+            "Aadhaar Card",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0029",
+        "title": "Pradhan Mantri Swasthya Vikas",
+        "department": "Ministry of Education",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "General",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 54 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Income Certificate",
+            "Domicile Certificate",
+            "PAN Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0030",
+        "title": "Pradhan Mantri Awas Vikas 2020",
+        "department": "Ministry of Health",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Aadhaar Card",
+            "Income Certificate",
+            "Caste Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0031",
+        "title": "National Swasthya Samman",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Domicile Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0032",
+        "title": "Swachh Kalyan Scheme",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Income Certificate",
+            "PAN Card",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0033",
+        "title": "Pradhan Mantri Awas Samman",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "General",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0034",
+        "title": "Deen Dayal Swasthya Mission",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Bank Passbook",
+            "Caste Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0035",
+        "title": "Pradhan Mantri Swasthya Samman",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Passport Size Photo",
+            "Bank Passbook"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0036",
+        "title": "Gruha Gramin Samman",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Caste Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0037",
+        "title": "Swachh Suraksha Samman",
+        "department": "Ministry of Education",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Domicile Certificate",
+            "Income Certificate",
+            "Bank Passbook",
+            "Caste Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0038",
+        "title": "Pradhan Mantri Kalyan Scheme",
+        "department": "State Govt",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0039",
+        "title": "Swachh Awas Scheme",
+        "department": "State Govt",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Income Certificate",
+            "Caste Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0040",
+        "title": "Swachh Gramin Program 2020",
+        "department": "Ministry of Education",
+        "benefit_type": "Health Insurance",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Bank Passbook",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0041",
+        "title": "Swachh Suraksha Nidhi",
+        "department": "State Govt",
+        "benefit_type": "Pension",
+        "target_audience": "General",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Caste Certificate",
+            "Bank Passbook",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0042",
+        "title": "Pradhan Mantri Suraksha Samman",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Pension",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Income Certificate",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0043",
+        "title": "State Gramin Samman",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Income Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0044",
+        "title": "Gruha Shiksha Samman",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Income Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0045",
+        "title": "State Awas Vikas",
+        "department": "Ministry of Education",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Bank Passbook",
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0046",
+        "title": "Mukhyamantri Suraksha Nidhi",
+        "department": "State Govt",
+        "benefit_type": "Pension",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 48 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0047",
+        "title": "National Gramin Samman",
+        "department": "State Govt",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0048",
+        "title": "Deen Dayal Swasthya Vikas",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "PAN Card",
+            "Domicile Certificate",
+            "Income Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0049",
+        "title": "Swachh Kalyan Yojana",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Passport Size Photo",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0050",
+        "title": "Start-Up Swasthya Program 2020",
+        "department": "State Govt",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Caste Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0051",
+        "title": "Mukhyamantri Gramin Abhiyan",
+        "department": "Ministry of Education",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Caste Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0052",
+        "title": "Deen Dayal Gramin Program",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0053",
+        "title": "Deen Dayal Gramin Mission",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "PAN Card",
+            "Aadhaar Card",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0054",
+        "title": "Pradhan Mantri Shiksha Scheme",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Bank Passbook",
+            "Caste Certificate",
+            "Passport Size Photo",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0055",
+        "title": "Mukhyamantri Awas Scheme",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 54 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Passport Size Photo",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0056",
+        "title": "Deen Dayal Kalyan Nidhi",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "Bank Passbook",
+            "PAN Card",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0057",
+        "title": "Gruha Kalyan Scheme",
+        "department": "Ministry of Education",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Passport Size Photo",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0058",
+        "title": "Stand-Up Shiksha Vikas",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Health Insurance",
+        "target_audience": "General",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "PAN Card",
+            "Passport Size Photo",
+            "Income Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0059",
+        "title": "Gruha Gramin Vikas",
+        "department": "Ministry of Health",
+        "benefit_type": "Pension",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0060",
+        "title": "Swachh Suraksha Abhiyan 2020",
+        "department": "Ministry of Education",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Caste Certificate",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0061",
+        "title": "Kisan Awas Vikas",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Bank Passbook",
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0062",
+        "title": "Pradhan Mantri Krishi Scheme",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0063",
+        "title": "Swachh Swasthya Samman",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Pension",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Caste Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0064",
+        "title": "Mukhyamantri Krishi Nidhi",
+        "department": "Ministry of Education",
+        "benefit_type": "Pension",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "PAN Card",
+            "Passport Size Photo",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0065",
+        "title": "Kisan Gramin Vikas",
+        "department": "Ministry of Health",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Domicile Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0066",
+        "title": "Pradhan Mantri Awas Program",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Passport Size Photo",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0067",
+        "title": "Mukhyamantri Gramin Nidhi",
+        "department": "Ministry of Health",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Income Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0068",
+        "title": "Stand-Up Swasthya Scheme",
+        "department": "State Govt",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "General",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0069",
+        "title": "Swachh Suraksha Nidhi",
+        "department": "Ministry of Education",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Aadhaar Card",
+            "Income Certificate",
+            "Domicile Certificate",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0070",
+        "title": "State Swasthya Samman 2020",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 56 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0071",
+        "title": "Deen Dayal Krishi Abhiyan",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Caste Certificate",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0072",
+        "title": "Mukhyamantri Suraksha Yojana",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0073",
+        "title": "Pradhan Mantri Krishi Samman",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Caste Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0074",
+        "title": "State Kalyan Samman",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Pension",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Income Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0075",
+        "title": "Gruha Kalyan Program",
+        "department": "State Govt",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Caste Certificate",
+            "Aadhaar Card",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0076",
+        "title": "Start-Up Shiksha Samman",
+        "department": "Ministry of Education",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "General",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0077",
+        "title": "Gruha Awas Samman",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Income Certificate",
+            "Caste Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0078",
+        "title": "Start-Up Awas Abhiyan",
+        "department": "Ministry of Health",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0079",
+        "title": "Mukhyamantri Gramin Samman",
+        "department": "Ministry of Education",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0080",
+        "title": "Start-Up Suraksha Vikas 2020",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 59 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0081",
+        "title": "Pradhan Mantri Swasthya Scheme",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Pension",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Caste Certificate",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0082",
+        "title": "Deen Dayal Gramin Abhiyan",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0083",
+        "title": "Pradhan Mantri Shiksha Mission",
+        "department": "State Govt",
+        "benefit_type": "Pension",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Domicile Certificate",
+            "Caste Certificate",
+            "Passport Size Photo",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0084",
+        "title": "National Krishi Vikas",
+        "department": "Ministry of Health",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "PAN Card",
+            "Caste Certificate",
+            "Bank Passbook",
+            "Passport Size Photo"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0085",
+        "title": "Deen Dayal Gramin Scheme",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0086",
+        "title": "Start-Up Swasthya Yojana",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "PAN Card",
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0087",
+        "title": "National Kalyan Yojana",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Income Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0088",
+        "title": "Pradhan Mantri Shiksha Abhiyan",
+        "department": "Ministry of Health",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Income Certificate",
+            "Domicile Certificate",
+            "Caste Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0089",
+        "title": "Swachh Shiksha Vikas",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "General",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0090",
+        "title": "State Swasthya Program 2020",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Income Certificate",
+            "Domicile Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0091",
+        "title": "Swachh Kalyan Scheme",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "General",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Bank Passbook",
+            "Aadhaar Card",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0092",
+        "title": "Swachh Gramin Yojana",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Pension",
+        "target_audience": "General",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Caste Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0093",
+        "title": "Deen Dayal Shiksha Vikas",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Income Certificate",
+            "Domicile Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0094",
+        "title": "Deen Dayal Suraksha Yojana",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 48 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Aadhaar Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0095",
+        "title": "Pradhan Mantri Krishi Abhiyan",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "PAN Card",
+            "Passport Size Photo",
+            "Bank Passbook"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0096",
+        "title": "Mukhyamantri Kalyan Program",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 54 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0097",
+        "title": "Deen Dayal Krishi Vikas",
+        "department": "Ministry of Health",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Passport Size Photo",
+            "PAN Card",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0098",
+        "title": "Start-Up Shiksha Mission",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0099",
+        "title": "Start-Up Kalyan Samman",
+        "department": "Ministry of Health",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Caste Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0100",
+        "title": "Stand-Up Gramin Nidhi 2020",
+        "department": "Ministry of Education",
+        "benefit_type": "Pension",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Bank Passbook",
+            "Income Certificate",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0101",
+        "title": "Gruha Awas Scheme",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0102",
+        "title": "Mukhyamantri Suraksha Program",
+        "department": "State Govt",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 59 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Aadhaar Card",
+            "Income Certificate",
+            "Domicile Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0103",
+        "title": "Mukhyamantri Awas Mission",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Caste Certificate",
+            "Income Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0104",
+        "title": "State Kalyan Nidhi",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 48 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Aadhaar Card",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0105",
+        "title": "National Awas Abhiyan",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Domicile Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0106",
+        "title": "State Suraksha Scheme",
+        "department": "Ministry of Health",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Bank Passbook",
+            "Passport Size Photo",
+            "Income Certificate",
+            "Caste Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0107",
+        "title": "Deen Dayal Awas Nidhi",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 48 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Domicile Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0108",
+        "title": "State Gramin Samman",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "General",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0109",
+        "title": "Swachh Awas Samman",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Income Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0110",
+        "title": "Pradhan Mantri Swasthya Mission 2020",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 55 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0111",
+        "title": "Pradhan Mantri Awas Program",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Bank Passbook",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0112",
+        "title": "Pradhan Mantri Kalyan Scheme",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Pension",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Caste Certificate",
+            "Passport Size Photo",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0113",
+        "title": "State Krishi Abhiyan",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Pension",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0114",
+        "title": "Gruha Krishi Abhiyan",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "PAN Card",
+            "Bank Passbook",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0115",
+        "title": "State Awas Nidhi",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "General",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Income Certificate",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0116",
+        "title": "Gruha Suraksha Mission",
+        "department": "Ministry of Health",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Bank Passbook",
+            "Passport Size Photo",
+            "Domicile Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0117",
+        "title": "Kisan Shiksha Mission",
+        "department": "Ministry of Health",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0118",
+        "title": "Pradhan Mantri Gramin Samman",
+        "department": "State Govt",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Aadhaar Card",
+            "PAN Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0119",
+        "title": "National Suraksha Mission",
+        "department": "State Govt",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide healthcare coverage to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Bank Passbook",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0120",
+        "title": "National Krishi Scheme 2020",
+        "department": "Ministry of Health",
+        "benefit_type": "Pension",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 59 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Domicile Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0121",
+        "title": "Gruha Awas Nidhi",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0122",
+        "title": "National Shiksha Mission",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Domicile Certificate",
+            "Income Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0123",
+        "title": "Mukhyamantri Krishi Abhiyan",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Bank Passbook",
+            "Aadhaar Card",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0124",
+        "title": "Mukhyamantri Kalyan Program",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Caste Certificate",
+            "Aadhaar Card",
+            "PAN Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0125",
+        "title": "Gruha Awas Samman",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 60 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Aadhaar Card",
+            "Domicile Certificate",
+            "Bank Passbook",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0126",
+        "title": "Stand-Up Swasthya Scheme",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "PAN Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0127",
+        "title": "Start-Up Kalyan Abhiyan",
+        "department": "Ministry of Health",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "General",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Passport Size Photo",
+            "Domicile Certificate",
+            "PAN Card",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0128",
+        "title": "Stand-Up Kalyan Samman",
+        "department": "Ministry of Education",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 57 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Caste Certificate",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0129",
+        "title": "Start-Up Gramin Vikas",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Pension",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 53 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0130",
+        "title": "Start-Up Suraksha Abhiyan 2020",
+        "department": "Ministry of Education",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Aadhaar Card",
+            "Caste Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0131",
+        "title": "Start-Up Krishi Yojana",
+        "department": "Ministry of Education",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 51 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Domicile Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0132",
+        "title": "Gruha Suraksha Abhiyan",
+        "department": "Ministry of Health",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 46 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Caste Certificate",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0133",
+        "title": "Swachh Krishi Nidhi",
+        "department": "Ministry of Education",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 50 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Aadhaar Card",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0134",
+        "title": "Kisan Awas Mission",
+        "department": "State Govt",
+        "benefit_type": "Pension",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 48 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Income Certificate",
+            "Caste Certificate",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0135",
+        "title": "Kisan Kalyan Yojana",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide financial stability to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 56 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Passport Size Photo",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0136",
+        "title": "Pradhan Mantri Kalyan Samman",
+        "department": "Ministry of Education",
+        "benefit_type": "Pension",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "PAN Card",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0137",
+        "title": "Start-Up Swasthya Abhiyan",
+        "department": "Ministry of Education",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "General",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Aadhaar Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0138",
+        "title": "Deen Dayal Krishi Scheme",
+        "department": "Ministry of Education",
+        "benefit_type": "Pension",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide better livelihood to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 49 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Bank Passbook",
+            "Income Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0139",
+        "title": "Stand-Up Shiksha Nidhi",
+        "department": "Ministry of Education",
+        "benefit_type": "Health Insurance",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0140",
+        "title": "Deen Dayal Kalyan Scheme 2020",
+        "department": "Ministry of Minority Affairs",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Bank Passbook"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0141",
+        "title": "National Gramin Mission",
+        "department": "State Govt",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Students",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 56 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Aadhaar Card",
+            "PAN Card",
+            "Domicile Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0142",
+        "title": "Kisan Kalyan Abhiyan",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide healthcare coverage to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 56 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Domicile Certificate",
+            "Passport Size Photo"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0143",
+        "title": "Start-Up Kalyan Program",
+        "department": "Ministry of Health",
+        "benefit_type": "Direct Benefit Transfer",
+        "target_audience": "General",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "PAN Card",
+            "Caste Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0144",
+        "title": "Kisan Kalyan Mission",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 25 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Income Certificate",
+            "Bank Passbook"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0145",
+        "title": "State Kalyan Samman",
+        "department": "Ministry of Education",
+        "benefit_type": "Pension",
+        "target_audience": "General",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 56 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Passport Size Photo",
+            "Bank Passbook",
+            "Aadhaar Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0146",
+        "title": "Mukhyamantri Krishi Mission",
+        "department": "Ministry of Health",
+        "benefit_type": "Pension",
+        "target_audience": "Farmers",
+        "description": "This scheme aims to provide better livelihood to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0147",
+        "title": "Start-Up Swasthya Program",
+        "department": "Ministry of Rural Development",
+        "benefit_type": "Pension",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 56 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Passport Size Photo",
+            "Bank Passbook",
+            "PAN Card",
+            "Aadhaar Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0148",
+        "title": "Start-Up Shiksha Mission",
+        "department": "State Govt",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 59 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Domicile Certificate",
+            "Caste Certificate",
+            "PAN Card",
+            "Bank Passbook"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0149",
+        "title": "Start-Up Kalyan Abhiyan",
+        "department": "Ministry of Women & Child Development",
+        "benefit_type": "Housing Subsidy",
+        "target_audience": "BPL Families",
+        "description": "This scheme aims to provide financial stability to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 22 to 52 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Income Certificate",
+            "Aadhaar Card"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0150",
+        "title": "National Kalyan Samman 2020",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide educational support to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 24 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Bank Passbook",
+            "PAN Card",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0151",
+        "title": "State Shiksha Mission",
+        "department": "Ministry of Agriculture",
+        "benefit_type": "Financial Assistance",
+        "target_audience": "Women",
+        "description": "This scheme aims to provide educational support to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 20 to 45 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Domicile Certificate",
+            "Passport Size Photo",
+            "Income Certificate"
+        ],
+        "application_status": "Open Space"
+    },
+    {
+        "id": "SCHEME-0152",
+        "title": "Mukhyamantri Suraksha Scheme",
+        "department": "Ministry of Health",
+        "benefit_type": "Pension",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide better livelihood to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 19 to 47 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Bank Passbook",
+            "Passport Size Photo",
+            "Aadhaar Card"
+        ],
+        "application_status": "Active"
+    },
+    {
+        "id": "SCHEME-0153",
+        "title": "Swachh Swasthya Scheme",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Equipment Grant",
+        "target_audience": "Entrepreneurs",
+        "description": "This scheme aims to provide financial stability to rural areas through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 23 to 54 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Income Certificate",
+            "Domicile Certificate",
+            "Caste Certificate",
+            "PAN Card"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0154",
+        "title": "Stand-Up Gramin Abhiyan",
+        "department": "Ministry of Health",
+        "benefit_type": "Health Insurance",
+        "target_audience": "Disabled",
+        "description": "This scheme aims to provide healthcare coverage to marginalized communities through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 21 to 59 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "Aadhaar Card",
+            "Bank Passbook",
+            "PAN Card",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    },
+    {
+        "id": "SCHEME-0155",
+        "title": "Mukhyamantri Swasthya Samman",
+        "department": "Ministry of Social Justice",
+        "benefit_type": "Subsidized Loan",
+        "target_audience": "Senior Citizens",
+        "description": "This scheme aims to provide educational support to deserving individuals through direct intervention.",
+        "eligibility_criteria": [
+            "Applicant must be a citizen of India.",
+            "Age limit: 18 to 58 years.",
+            "Valid Aadhaar Card is required."
+        ],
+        "documents_required": [
+            "PAN Card",
+            "Aadhaar Card",
+            "Caste Certificate",
+            "Domicile Certificate",
+            "Income Certificate"
+        ],
+        "application_status": "Closed"
+    }
+]
