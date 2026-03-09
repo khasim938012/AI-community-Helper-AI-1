@@ -1,12 +1,948 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Government Assistant</title>
-  </head>
-  <body class="bg-darkBg text-white">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AICORE - State Portal</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom Scrollbar */
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #332544; border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #ec4899; }
+        
+        /* Utility for hiding elements */
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body class="bg-[#0a040f] text-white font-sans selection:bg-pink-500/30 overflow-hidden">
+
+    <!-- ==================== AUTH SCREEN ==================== -->
+    <div id="auth-screen" class="min-h-screen flex items-center justify-center bg-[#0a0510] p-4">
+        <div class="bg-[#130b1c] border border-white/10 p-8 rounded-3xl shadow-2xl w-full max-w-md">
+            <div class="flex justify-center mb-6 items-center gap-2">
+                <div class="bg-gradient-to-br from-pink-500 to-purple-600 p-3 rounded-xl text-white shadow-[0_0_20px_rgba(236,72,153,0.4)]">
+                    <i data-lucide="zap" class="w-8 h-8 fill-white"></i>
+                </div>
+                <h1 class="text-3xl font-black tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-white">AICORE</h1>
+            </div>
+            <p class="text-center text-gray-400 mb-8 text-sm">Your Voice-Powered Govt Portal</p>
+
+            <form id="login-form" class="space-y-4">
+                <div id="auth-name-group" class="hidden">
+                    <label class="block text-sm font-medium mb-1 text-gray-300">Full Name</label>
+                    <input type="text" id="auth-name" class="w-full px-4 py-3 rounded-xl bg-[#1c1226] border border-white/5 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500 placeholder-gray-600 text-white transition-all" placeholder="Ramesh Kumar" />
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1 text-gray-300">Email Address</label>
+                    <input type="email" id="auth-email" required class="w-full px-4 py-3 rounded-xl bg-[#1c1226] border border-white/5 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500 placeholder-gray-600 text-white transition-all" placeholder="citizen@india.com" />
+                    <p class="text-xs text-pink-400/70 mt-1 hidden" id="admin-hint">Hint: Use admin@ai.gov for Admin view</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1 text-gray-300">Password</label>
+                    <input type="password" required class="w-full px-4 py-3 rounded-xl bg-[#1c1226] border border-white/5 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500 placeholder-gray-600 text-white transition-all" placeholder="••••••••" value="password" />
+                </div>
+                <button type="submit" id="auth-submit-btn" class="w-full py-3 rounded-xl font-bold text-lg bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-400 hover:to-purple-500 transition-all transform hover:scale-[1.02] shadow-[0_0_20px_rgba(236,72,153,0.3)] mt-2">
+                    Login to Dashboard
+                </button>
+            </form>
+
+            <p class="text-center mt-6 text-sm text-gray-400">
+                <span id="auth-toggle-text">Don't have an account?</span> 
+                <button type="button" onclick="toggleAuthMode()" id="auth-toggle-btn" class="font-bold text-pink-400 hover:text-pink-300 transition-colors">Sign up here</button>
+            </p>
+        </div>
+    </div>
+
+    <!-- ==================== DASHBOARD ==================== -->
+    <div id="dashboard-screen" class="hidden flex h-screen bg-[#0a040f] overflow-hidden">
+        
+        <!-- SIDEBAR -->
+        <aside class="w-72 bg-[#110617] border-r border-white/5 flex flex-col shrink-0 z-20">
+            <div class="h-24 flex items-center px-8">
+                <div class="flex items-center gap-3">
+                    <div class="bg-gradient-to-br from-pink-500 to-purple-600 p-2 rounded-xl text-white shadow-[0_0_15px_rgba(236,72,153,0.4)]">
+                        <i data-lucide="zap" class="w-6 h-6 fill-white"></i>
+                    </div>
+                    <span class="font-black text-2xl tracking-widest text-white">AICORE</span>
+                </div>
+            </div>
+            
+            <nav id="sidebar-nav" class="flex-1 overflow-y-auto px-4 pb-4 space-y-1 custom-scrollbar">
+                <!-- Nav items injected via JS -->
+            </nav>
+
+            <div class="p-4 border-t border-white/5">
+                <button onclick="processAICommand('logout')" class="flex items-center gap-3 w-full text-pink-400 hover:text-pink-300 hover:bg-pink-500/10 p-3 rounded-xl transition-colors font-medium">
+                    <i data-lucide="log-out" class="w-5 h-5"></i>
+                    <span>Logout Account</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <div class="flex-1 flex flex-col h-screen overflow-hidden relative">
+            <!-- HEADER -->
+            <header class="h-24 bg-transparent flex items-center justify-between px-8 z-10 shrink-0 border-b border-white/5">
+                <div class="flex items-center gap-3">
+                    <i data-lucide="sparkles" class="text-pink-500 w-5 h-5"></i>
+                    <h2 id="header-title" class="font-bold text-lg tracking-[0.2em] text-white/90 uppercase">STATE PORTAL</h2>
+                </div>
+                
+                <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2 mr-4 bg-white/5 px-4 py-2 rounded-full border border-white/10">
+                        <div id="status-dot" class="w-2.5 h-2.5 rounded-full bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)] animate-pulse"></div>
+                        <span id="status-text" class="text-xs font-bold text-gray-300 uppercase tracking-wider">24/7 AI ACTIVE</span>
+                    </div>
+
+                    <button id="toggle-mic-btn" onclick="toggleListen()" class="w-10 h-10 rounded-full flex items-center justify-center transition-all z-50 bg-gradient-to-r from-pink-500 to-purple-600 shadow-[0_0_15px_rgba(236,72,153,0.5)] animate-pulse">
+                        <i id="mic-icon" data-lucide="mic" class="w-5 h-5 text-white"></i>
+                    </button>
+                    <div class="relative">
+                        <select id="lang-select" class="appearance-none bg-[#1a0f26] border border-white/10 rounded-full pl-4 pr-10 py-2 text-sm font-medium outline-none focus:border-pink-500 text-gray-200 cursor-pointer">
+                            <!-- Languages injected via JS -->
+                        </select>
+                        <i data-lucide="chevron-right" class="w-3.5 h-3.5 absolute right-4 top-1/2 transform -translate-y-1/2 rotate-90 text-gray-400 pointer-events-none"></i>
+                    </div>
+                </div>
+            </header>
+
+            <!-- DYNAMIC VIEWS -->
+            <main class="flex-1 overflow-y-auto bg-gradient-to-br from-[#0f0817] via-[#12081c] to-[#0a040f] relative p-8">
+                
+                <!-- VIEW: HOME (VOICE ASSISTANT) -->
+                <div id="view-home" class="view-section h-full w-full flex flex-col items-center justify-center relative pb-10">
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-600/10 blur-[120px] rounded-full pointer-events-none"></div>
+                    
+                    <div class="bg-[#150b1d] border border-white/5 rounded-[2rem] p-12 shadow-2xl w-full max-w-2xl flex flex-col items-center relative z-10 mb-8">
+                        <h1 class="text-3xl font-bold mb-12 text-white text-center">
+                            Talk to <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500">Intelligence</span>
+                        </h1>
+                
+                        <button onclick="toggleListen()" id="center-mic-btn" class="relative group w-36 h-36 rounded-full flex items-center justify-center mb-8 transition-all duration-300 hover:scale-105 scale-105">
+                            <div id="center-mic-glow" class="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 blur-xl transition-opacity duration-300 opacity-100 animate-pulse"></div>
+                            <div class="absolute inset-0 rounded-full bg-gradient-to-br from-pink-500 to-purple-600"></div>
+                            <i id="center-mic-icon" data-lucide="mic" class="w-14 h-14 text-white relative z-10"></i>
+                        </button>
+                
+                        <div class="bg-[#1a0f26] border border-white/10 px-6 py-2 rounded-full mb-10">
+                            <p id="home-status-badge" class="text-xs font-semibold tracking-[0.2em] text-gray-300">24/7 LISTENING... (SAY 'MUTE')</p>
+                        </div>
+                
+                        <p id="home-transcript" class="text-pink-300 text-center mb-6 h-6 italic truncate w-full px-4"></p>
+                
+                        <div class="w-full flex flex-col gap-4">
+                            <div class="relative w-full">
+                                <i data-lucide="search" class="w-5 h-5 absolute left-5 top-1/2 transform -translate-y-1/2 text-pink-500/70"></i>
+                                <input type="text" id="ai-input" placeholder="Or type a command..." class="w-full bg-[#1c0f2b] border border-transparent focus:border-pink-500/50 rounded-2xl pl-14 pr-6 py-4 outline-none text-white placeholder-gray-500 transition-all shadow-inner" />
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="w-full max-w-2xl relative z-10">
+                        <p class="text-xs font-bold tracking-widest text-gray-500 mb-3 uppercase pl-2">Hands-Free Automation Commands:</p>
+                        <div class="flex flex-wrap gap-2" id="suggested-commands">
+                            <!-- Injected via JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: SCHEMES -->
+                <div id="view-schemes" class="view-section hidden max-w-6xl mx-auto space-y-6 pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">SCHEMES (<span id="schemes-count">30</span>)</h1>
+                        <div class="flex gap-3">
+                            <button onclick="processAICommand('Train ML for new schemes')" class="bg-[#2a1124] hover:bg-[#3b1832] text-pink-400 border border-pink-500/20 px-5 py-2.5 rounded-xl flex items-center gap-2 font-medium transition-all text-sm">
+                                <i data-lucide="refresh-cw" class="w-4 h-4"></i> Train ML & Update Schemes
+                            </button>
+                            <button onclick="processAICommand('Read all schemes')" class="bg-[#2a1124] hover:bg-[#3b1832] text-pink-400 border border-pink-500/20 px-5 py-2.5 rounded-xl flex items-center gap-2 font-medium transition-all text-sm">
+                                <i data-lucide="volume-2" class="w-4 h-4"></i> Read Schemes
+                            </button>
+                        </div>
+                    </div>
+                    <div id="schemes-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+                </div>
+
+                <!-- VIEW: ITEM DETAIL (Generic for Schemes, Jobs, Courses) -->
+                <div id="view-item-detail" class="view-section hidden max-w-4xl mx-auto pb-20 pt-8">
+                    <button id="detail-back-btn" class="text-pink-400 hover:text-pink-300 flex items-center gap-2 mb-6 text-sm font-bold uppercase tracking-wider transition-colors">
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i> Back
+                    </button>
+                    
+                    <div class="bg-[#13091c] border border-white/5 rounded-[1.5rem] p-10 shadow-lg relative overflow-hidden">
+                        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-pink-500 to-purple-600"></div>
+                        <h1 id="detail-title" class="text-3xl font-black text-white mb-6">Item Title</h1>
+                        
+                        <div class="space-y-8">
+                            <div>
+                                <h2 class="text-pink-400 font-bold uppercase tracking-widest text-sm mb-3 flex items-center gap-2"><i data-lucide="info" class="w-4 h-4"></i> What is it?</h2>
+                                <p id="detail-desc" class="text-gray-300 leading-relaxed text-[15px]"></p>
+                            </div>
+                            
+                            <div>
+                                <h2 class="text-pink-400 font-bold uppercase tracking-widest text-sm mb-3 flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i> Who can apply?</h2>
+                                <p id="detail-eligibility" class="text-gray-300 leading-relaxed text-[15px]"></p>
+                            </div>
+
+                            <div>
+                                <h2 class="text-pink-400 font-bold uppercase tracking-widest text-sm mb-4 flex items-center gap-2"><i data-lucide="file-check-2" class="w-4 h-4"></i> Documents Required</h2>
+                                <ul id="detail-docs" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <!-- injected via js -->
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h2 class="text-pink-400 font-bold uppercase tracking-widest text-sm mb-3 flex items-center gap-2"><i data-lucide="link" class="w-4 h-4"></i> Official Portal</h2>
+                                <a id="detail-official-link" href="#" target="_blank" class="text-blue-400 hover:text-blue-300 flex items-center gap-2 text-sm bg-blue-500/10 px-4 py-3 rounded-xl border border-blue-500/20 w-fit transition-colors font-medium">
+                                    <i data-lucide="globe" class="w-4 h-4"></i> <span id="detail-official-text">Visit Official Website</span> <i data-lucide="external-link" class="w-3 h-3 ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-6">
+                            <p class="text-gray-400 text-sm flex items-center gap-2"><i data-lucide="shield" class="w-4 h-4 text-green-400"></i> AI Document Verification Ready</p>
+                            <button id="detail-apply-btn" class="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-90 text-white font-bold py-4 px-10 rounded-full text-xs tracking-[0.15em] uppercase transition-all shadow-[0_0_20px_rgba(236,72,153,0.3)] flex items-center justify-center gap-2">
+                                DIRECT APPLY <i data-lucide="external-link" class="w-4 h-4"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: JOBS -->
+                <div id="view-jobs" class="view-section hidden max-w-6xl mx-auto space-y-6 pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">JOBS & SCHOLARSHIPS (30)</h1>
+                    </div>
+                    <div id="jobs-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+                </div>
+
+                <!-- VIEW: SCAM DETECTOR -->
+                <div id="view-scam" class="view-section hidden max-w-6xl mx-auto space-y-6 pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">SCAM DETECTOR</h1>
+                    </div>
+                    <div class="bg-[#13091c] border border-white/5 p-10 rounded-[1.5rem] shadow-lg flex flex-col items-center justify-center min-h-[50vh]">
+                        <i data-lucide="shield-check" class="w-16 h-16 text-pink-500 mb-6"></i>
+                        <h2 class="text-2xl font-bold text-white mb-2">AI Scam & Fraud Analysis</h2>
+                        <p class="text-gray-400 text-center mb-8 max-w-lg">Paste a suspicious link or text message below. Our AI model will instantly analyze the contents for phishing attempts and fake government portals.</p>
+                        <div class="w-full max-w-2xl relative">
+                            <textarea placeholder="Paste message or link here..." class="w-full h-40 p-5 bg-[#0a0510] border border-white/10 rounded-2xl focus:border-pink-500 outline-none resize-none text-white placeholder-gray-600 transition-all"></textarea>
+                            <button class="absolute bottom-5 right-5 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-3 rounded-full font-bold tracking-[0.1em] text-xs uppercase hover:opacity-90 transition-all">ANALYZE THREAT</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: VAULT -->
+                <div id="view-docs" class="view-section hidden max-w-6xl mx-auto space-y-6 pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">SMART ALERTS & VAULT</h1>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="bg-[#13091c] border border-white/5 p-7 rounded-[1.5rem] shadow-lg flex flex-col justify-between group hover:border-pink-500/30 transition-all">
+                           <div>
+                              <div class="flex items-center gap-3 mb-4">
+                                <i data-lucide="file-text" class="text-pink-400 w-7 h-7"></i>
+                                <h3 class="text-[17px] font-extrabold text-white leading-tight">Aadhar Card</h3>
+                              </div>
+                              <p class="text-gray-400 text-[13px] leading-relaxed mb-6">Status: <span class="text-green-400 font-bold">Verified & Active</span><br/>Linked to 4 ongoing schemes.</p>
+                           </div>
+                           <button class="w-full bg-[#2a162e] text-white font-bold py-3.5 rounded-full text-[11px] tracking-[0.15em] uppercase transition-all">VIEW DOCUMENT</button>
+                        </div>
+                        <div class="bg-[#13091c] border border-red-500/30 p-7 rounded-[1.5rem] shadow-lg flex flex-col justify-between group hover:border-red-500/50 transition-all relative overflow-hidden">
+                           <div class="absolute top-0 left-0 w-full h-1 bg-red-500"></div>
+                           <div>
+                              <div class="flex items-center gap-3 mb-4">
+                                <i data-lucide="file-text" class="text-red-400 w-7 h-7"></i>
+                                <h3 class="text-[17px] font-extrabold text-white leading-tight">10th Marksheet</h3>
+                              </div>
+                              <p class="text-gray-400 text-[13px] leading-relaxed mb-6">Status: <span class="text-red-400 font-bold">Missing</span><br/>Required for many job applications. Please upload.</p>
+                           </div>
+                           <button class="w-full bg-gradient-to-r from-red-500 to-pink-600 hover:opacity-90 text-white font-bold py-3.5 rounded-full text-[11px] tracking-[0.15em] uppercase transition-all">UPLOAD NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: LOCATION -->
+                <div id="view-location" class="view-section hidden max-w-6xl mx-auto space-y-6 pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">NEARBY SERVICES</h1>
+                    </div>
+                    <div class="bg-[#13091c] border border-white/5 p-7 rounded-[1.5rem] shadow-lg flex items-center justify-between mb-6">
+                        <div>
+                            <h2 class="text-[17px] font-extrabold text-white">GPS Integration Active</h2>
+                            <p class="text-[13px] text-gray-400 mt-1">Detecting government facilities around your current coordinate.</p>
+                        </div>
+                        <div class="bg-pink-500/10 p-3 rounded-full">
+                            <i data-lucide="map-pin" class="text-pink-500 animate-pulse w-7 h-7"></i>
+                        </div>
+                    </div>
+                    <div class="h-96 bg-[#0a0510] border border-white/5 rounded-[1.5rem] flex items-center justify-center text-gray-500 font-medium shadow-inner">
+                        [ Interactive Map Engine Placeholder ]
+                    </div>
+                </div>
+
+                <!-- VIEW: EDUCATION -->
+                <div id="view-education" class="view-section hidden max-w-6xl mx-auto pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">SKILLS & COURSES (30)</h1>
+                    </div>
+                    <div id="education-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+                </div>
+
+                <!-- VIEW: EMERGENCY -->
+                <div id="view-emergency" class="view-section hidden max-w-6xl mx-auto pb-20">
+                    <div class="flex justify-between items-center mb-8 pt-2">
+                        <h1 class="text-[28px] font-black tracking-widest text-white uppercase">EMERGENCY SOS</h1>
+                    </div>
+                    <div id="emergency-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <!-- Rendered via JS dynamically -->
+                    </div>
+                </div>
+
+                <!-- VIEW: GUIDANCE / ADMIN (Placeholders) -->
+                <div id="view-guidance" class="view-section hidden text-white text-center mt-20 font-bold text-2xl">Form Guidance Assistant Online...</div>
+                <div id="view-admin" class="view-section hidden text-center mt-20 text-gray-400"><i data-lucide="users" class="w-16 h-16 mx-auto mb-4 text-pink-500/50"></i><h2 class="text-2xl font-bold text-white">Admin Dashboard</h2><p>System metrics load here.</p></div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- ==================== JAVASCRIPT APP LOGIC ==================== -->
+    <script>
+        // --- DATA (30 Items Each) ---
+        const LANGUAGES = [
+            { code: 'en-IN', name: 'English', label: 'English (IN)' },
+            { code: 'hi-IN', name: 'Hindi', label: 'हिंदी' },
+            { code: 'kn-IN', name: 'Kannada', label: 'ಕನ್ನಡ' },
+            { code: 'te-IN', name: 'Telugu', label: 'తెలుగు' },
+            { code: 'mr-IN', name: 'Marathi', label: 'मराठी' },
+        ];
+
+        let schemesList = [
+            { id: 1, state: 'Karnataka', title: 'Gruha Jyothi', desc: 'Up to 200 units of free electricity for residential households.', tags: ['Electricity', 'Subsidy'], eligibility: 'All residential households in Karnataka consuming less than 200 units.', documents: ['Aadhar Card', 'Recent Electricity Bill', 'Rental Agreement (if tenant)'] },
+            { id: 2, state: 'Maharashtra', title: 'Mahatma Jyotirao Phule Jan Arogya', desc: 'Cashless healthcare scheme for the poor.', tags: ['Health', 'Insurance'] },
+            { id: 3, state: 'All', title: 'PM Kisan Samman Nidhi', desc: '₹6000 per year minimum income support for farmers.', tags: ['Agriculture', 'Central'], eligibility: 'Small and marginal farmers with cultivable landholding in their name.', documents: ['Aadhar Card', 'Land holding papers', 'Bank Account Details', 'Passport Size Photo'] },
+            { id: 4, state: 'All', title: 'Ayushman Bharat', desc: 'Health insurance coverage up to ₹5 lakh per family per year.', tags: ['Health', 'Central'], eligibility: 'Low-income families listed in the SECC 2011 database.', documents: ['Aadhar Card', 'Ration Card', 'Income Certificate', 'Mobile Number'] },
+            { id: 5, state: 'All', title: 'PM Awas Yojana (Urban)', desc: 'Affordable housing for the urban poor.', tags: ['Housing', 'Subsidy'] },
+            { id: 6, state: 'All', title: 'MGNREGA', desc: '100 days of guaranteed wage employment per year.', tags: ['Employment', 'Rural'] },
+            { id: 7, state: 'All', title: 'Stand-Up India', desc: 'Bank loans for SC/ST and women borrowers for enterprises.', tags: ['Business', 'Women'] },
+            { id: 8, state: 'All', title: 'Mudra Yojana', desc: 'Micro-credit facility for small business owners.', tags: ['Finance', 'Business'] },
+            { id: 9, state: 'All', title: 'Atal Pension Yojana', desc: 'Guaranteed minimum pension for unorganized sector workers.', tags: ['Pension', 'Finance'] },
+            { id: 10, state: 'All', title: 'PM Jan Dhan Yojana', desc: 'National mission for financial inclusion ensuring access to financial services.', tags: ['Finance', 'Banking'] },
+            { id: 11, state: 'All', title: 'Beti Bachao Beti Padhao', desc: 'Campaign for the protection and education of girls.', tags: ['Education', 'Welfare'] },
+            { id: 12, state: 'All', title: 'PM Ujjwala Yojana', desc: 'Free LPG connections to women from BPL families.', tags: ['Energy', 'Women'] },
+            { id: 13, state: 'All', title: 'PM Awas Yojana (Rural)', desc: 'Housing for all in rural areas.', tags: ['Housing', 'Rural'] },
+            { id: 14, state: 'All', title: 'AMRUT', desc: 'Atal Mission for Rejuvenation and Urban Transformation.', tags: ['Urban', 'Infrastructure'] },
+            { id: 15, state: 'All', title: 'HRIDAY', desc: 'National Heritage City Development and Augmentation Yojana.', tags: ['Heritage', 'Urban'] },
+            { id: 16, state: 'All', title: 'Digital India', desc: 'Empowering citizens with digital literacy and infrastructure.', tags: ['Technology', 'Education'] },
+            { id: 17, state: 'All', title: 'Skill India', desc: 'Vocational training programs for youth.', tags: ['Skills', 'Employment'] },
+            { id: 18, state: 'All', title: 'Make in India', desc: 'Promoting manufacturing and entrepreneurship.', tags: ['Business', 'Manufacturing'] },
+            { id: 19, state: 'All', title: 'Startup India', desc: 'Fostering entrepreneurship and promoting innovation.', tags: ['Business', 'Startup'] },
+            { id: 20, state: 'All', title: 'PM Jeevan Jyoti Bima Yojana', desc: 'Life insurance scheme backed by the Government of India.', tags: ['Insurance', 'Finance'] },
+            { id: 21, state: 'All', title: 'PM Suraksha Bima Yojana', desc: 'Accident insurance scheme offering accidental death and disability cover.', tags: ['Insurance', 'Finance'] },
+            { id: 22, state: 'All', title: 'PM Fasal Bima Yojana', desc: 'Crop insurance for farmers against natural calamities.', tags: ['Agriculture', 'Insurance'] },
+            { id: 23, state: 'All', title: 'PM Krishi Sinchai Yojana', desc: 'Improving farm productivity and ensuring better utilization of resources.', tags: ['Agriculture', 'Irrigation'] },
+            { id: 24, state: 'All', title: 'Deen Dayal Upadhyaya Gram Jyoti Yojana', desc: 'Rural electrification scheme.', tags: ['Electricity', 'Rural'] },
+            { id: 25, state: 'All', title: 'PM Garib Kalyan Yojana', desc: 'Comprehensive relief package for the poor.', tags: ['Welfare', 'Relief'] },
+            { id: 26, state: 'All', title: 'PM SVANidhi', desc: 'Micro-credit facility for street vendors.', tags: ['Business', 'Vendors'] },
+            { id: 27, state: 'All', title: 'Ayushman Bharat Digital Mission', desc: 'Creating India’s digital health ecosystem.', tags: ['Health', 'Digital'] },
+            { id: 28, state: 'All', title: 'Sukanya Samriddhi Yojana', desc: 'Savings scheme for the girl child with high interest rates.', tags: ['Savings', 'Girl Child'] },
+            { id: 29, state: 'All', title: 'Jal Jeevan Mission', desc: 'Providing safe drinking water to all rural households.', tags: ['Water', 'Infrastructure'] },
+            { id: 30, state: 'All', title: 'Senior Citizen Savings Scheme', desc: 'High-interest savings for citizens above 60 years.', tags: ['Seniors', 'Finance'] }
+        ];
+
+        const JOBS = [
+            { id: 1, title: 'Indian Army Agniveer', type: 'Defense Job', eligibility: '10th/12th Pass', deadline: '2026-05-15' },
+            { id: 2, title: 'State Police Constable', type: 'Police Job', eligibility: '12th Pass', deadline: '2026-04-30' },
+            { id: 3, title: 'Primary School Teacher', type: 'Education Job', eligibility: 'B.Ed / D.Ed', deadline: '2026-06-10' },
+            { id: 4, title: 'National Merit Scholarship', type: 'Scholarship', eligibility: 'Above 80% in 12th', deadline: '2026-07-01' },
+            { id: 5, title: 'UPSC Civil Services', type: 'Admin Job', eligibility: 'Any Degree', deadline: '2026-03-20' },
+            { id: 6, title: 'SSC CGL', type: 'Govt Job', eligibility: 'Any Degree', deadline: '2026-05-05' },
+            { id: 7, title: 'SSC CHSL', type: 'Clerical Job', eligibility: '12th Pass', deadline: '2026-06-15' },
+            { id: 8, title: 'RRB Group D', type: 'Railway Job', eligibility: '10th Pass / ITI', deadline: '2026-08-20' },
+            { id: 9, title: 'IBPS PO', type: 'Banking Job', eligibility: 'Any Degree', deadline: '2026-09-10' },
+            { id: 10, title: 'IBPS Clerk', type: 'Banking Job', eligibility: 'Any Degree', deadline: '2026-10-15' },
+            { id: 11, title: 'NDA', type: 'Defense Job', eligibility: '12th Pass', deadline: '2026-01-10' },
+            { id: 12, title: 'CDS', type: 'Defense Job', eligibility: 'Any Degree', deadline: '2026-01-15' },
+            { id: 13, title: 'AFCAT', type: 'Air Force Job', eligibility: 'Degree in Tech/Arts', deadline: '2026-12-30' },
+            { id: 14, title: 'Indian Navy SSR', type: 'Navy Job', eligibility: '12th Pass (PCM)', deadline: '2026-05-22' },
+            { id: 15, title: 'Indian Coast Guard', type: 'Defense Job', eligibility: '10th/12th Pass', deadline: '2026-07-15' },
+            { id: 16, title: 'Delhi Police Constable', type: 'Police Job', eligibility: '12th Pass', deadline: '2026-09-01' },
+            { id: 17, title: 'UP Police Constable', type: 'Police Job', eligibility: '12th Pass', deadline: '2026-10-10' },
+            { id: 18, title: 'State TET', type: 'Teaching Eligibility', eligibility: 'B.Ed', deadline: '2026-09-01' },
+            { id: 19, title: 'CTET', type: 'Teaching Eligibility', eligibility: 'B.Ed/D.Ed', deadline: '2026-07-20' },
+            { id: 20, title: 'UGC NET', type: 'Lectureship', eligibility: 'Master\'s Degree', deadline: '2026-05-10' },
+            { id: 21, title: 'DRDO MTS', type: 'Govt Job', eligibility: '10th Pass / ITI', deadline: '2026-08-15' },
+            { id: 22, title: 'ISRO Assistant', type: 'Clerical Job', eligibility: 'Degree + Typing', deadline: '2026-07-05' },
+            { id: 23, title: 'LIC AAO', type: 'Insurance Job', eligibility: 'Any Degree', deadline: '2026-07-20' },
+            { id: 24, title: 'NIACL AO', type: 'Insurance Job', eligibility: 'Any Degree', deadline: '2026-08-10' },
+            { id: 25, title: 'FCI Assistant Grade III', type: 'Govt Job', eligibility: 'Degree + Computer', deadline: '2026-05-28' },
+            { id: 26, title: 'KVS Teacher', type: 'Education Job', eligibility: 'B.Ed + CTET', deadline: '2026-11-15' },
+            { id: 27, title: 'NVS Teacher', type: 'Education Job', eligibility: 'B.Ed + CTET', deadline: '2026-12-10' },
+            { id: 28, title: 'SSC GD Constable', type: 'Defense Job', eligibility: '10th Pass', deadline: '2026-03-31' },
+            { id: 29, title: 'Post Office GDS', type: 'Postal Job', eligibility: '10th Pass', deadline: '2026-04-12' },
+            { id: 30, title: 'Railway ALP', type: 'Railway Job', eligibility: 'ITI / Diploma', deadline: '2026-02-28' }
+        ];
+
+        const COURSES = [
+            { id: 1, title: 'Digital Literacy Basics', provider: 'PMGDisha', tag: 'Beginner' },
+            { id: 2, title: 'Tailoring & Stitching', provider: 'State Skill Dept', tag: 'Vocational' },
+            { id: 3, title: 'Web Development Bootcamp', provider: 'Skill India', tag: 'IT / Tech' },
+            { id: 4, title: 'Electrician Training', provider: 'ITI Open Course', tag: 'Vocational' },
+            { id: 5, title: 'Plumbing Fundamentals', provider: 'State Skill Dept', tag: 'Vocational' },
+            { id: 6, title: 'Data Entry Operator', provider: 'NSDC', tag: 'Clerical' },
+            { id: 7, title: 'Advanced Excel', provider: 'Skill India', tag: 'Business' },
+            { id: 8, title: 'Digital Marketing', provider: 'Digital India', tag: 'Marketing' },
+            { id: 9, title: 'Graphic Design', provider: 'NSDC', tag: 'Creative' },
+            { id: 10, title: 'Video Editing', provider: 'Skill India', tag: 'Creative' },
+            { id: 11, title: 'UI/UX Design', provider: 'Digital India', tag: 'IT / Tech' },
+            { id: 12, title: 'Python Programming', provider: 'Skill India', tag: 'IT / Tech' },
+            { id: 13, title: 'React Development', provider: 'Digital India', tag: 'IT / Tech' },
+            { id: 14, title: 'Data Analysis', provider: 'NSDC', tag: 'Business' },
+            { id: 15, title: 'Machine Learning', provider: 'Digital India', tag: 'Advanced IT' },
+            { id: 16, title: 'Cyber Security', provider: 'Cyber Cell', tag: 'Advanced IT' },
+            { id: 17, title: 'Cloud Computing (AWS)', provider: 'Digital India', tag: 'Advanced IT' },
+            { id: 18, title: 'AutoCAD', provider: 'Skill India', tag: 'Engineering' },
+            { id: 19, title: 'Tally Prime', provider: 'NSDC', tag: 'Finance' },
+            { id: 20, title: 'Beautician Course', provider: 'State Skill Dept', tag: 'Vocational' },
+            { id: 21, title: 'Mobile Repairing', provider: 'ITI Open Course', tag: 'Vocational' },
+            { id: 22, title: 'AC Repairing', provider: 'ITI Open Course', tag: 'Vocational' },
+            { id: 23, title: 'Solar Panel Installation', provider: 'Skill India', tag: 'Green Tech' },
+            { id: 24, title: 'Organic Farming', provider: 'Kisan Kendra', tag: 'Agriculture' },
+            { id: 25, title: 'Poultry Farming', provider: 'Kisan Kendra', tag: 'Agriculture' },
+            { id: 26, title: 'Dairy Farming', provider: 'Kisan Kendra', tag: 'Agriculture' },
+            { id: 27, title: 'Mushroom Cultivation', provider: 'State Skill Dept', tag: 'Agriculture' },
+            { id: 28, title: 'Handloom Weaving', provider: 'NSDC', tag: 'Vocational' },
+            { id: 29, title: 'Pottery Making', provider: 'State Skill Dept', tag: 'Crafts' },
+            { id: 30, title: 'Carpentry', provider: 'ITI Open Course', tag: 'Vocational' }
+        ];
+
+        const EMERGENCIES = [
+            { num: '112', label: 'National Emergency', desc: 'All-in-one emergency helpline' },
+            { num: '100', label: 'Police', desc: 'Immediate police assistance' },
+            { num: '101', label: 'Fire Brigade', desc: 'Fire & rescue services' },
+            { num: '108', label: 'Ambulance', desc: 'Medical emergencies' },
+            { num: '1091', label: 'Women Helpline', desc: 'Support and protection for women' },
+            { num: '1098', label: 'Child Helpline', desc: 'Assistance for children in distress' },
+            { num: '1930', label: 'Cyber Crime', desc: 'Report financial fraud & cyber crimes' },
+            { num: '1078', label: 'Disaster Management', desc: 'Natural disasters & calamities' },
+            { num: '14567', label: 'Senior Citizen', desc: 'Elderly care & support' },
+            { num: '1073', label: 'Road Accident', desc: 'Highway traffic & accident support' },
+            { num: '1066', label: 'Anti-Poison', desc: 'Poison control center' },
+            { num: '139', label: 'Railway Emergency', desc: 'Indian Railways support' }
+        ];
+
+        const NAV_ITEMS = [
+            { id: 'home', icon: 'mic', label: '1. Voice Assistant' },
+            { id: 'schemes', icon: 'landmark', label: '2. Govt Schemes' },
+            { id: 'scam', icon: 'shield-check', label: '3. Scam Detector' },
+            { id: 'docs', icon: 'bell', label: '4. Smart Alerts' },
+            { id: 'jobs', icon: 'briefcase', label: '5. Scholarships & Jobs' },
+            { id: 'location', icon: 'map-pin', label: '6. Nearby GPS' },
+            { id: 'education', icon: 'graduation-cap', label: '7. Skills' },
+            { id: 'guidance', icon: 'file-text', label: '8. Form Guidance' },
+            { id: 'emergency', icon: 'phone-call', label: '9. Emergency SOS' },
+        ];
+
+        // --- STATE VARIABLES ---
+        let currentUser = null;
+        let activeTab = 'home';
+        let userState = 'Karnataka';
+        let userLang = 'en-IN';
+        let isLoginMode = true; // Track auth screen state
+        
+        let isListeningUI = true;
+        let isProcessing = false;
+        let aiSpeechText = "System online. 24/7 Listening Mode active. What can I do for you?";
+        
+        let speechRecognition;
+        let shouldListen = true;
+
+        // --- INITIALIZATION ---
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            populateSelects();
+            renderSidebar();
+            
+            const cmds = ["Open PM Kisan", "Read all schemes", "Check my eligibility", "Apply for SSC CGL", "Find hospital", "Logout"];
+            const suggContainer = document.getElementById('suggested-commands');
+            cmds.forEach(cmd => {
+                const btn = document.createElement('button');
+                btn.className = "bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 text-sm px-4 py-2 rounded-full transition-colors whitespace-nowrap";
+                btn.textContent = `"${cmd}"`;
+                btn.onclick = () => { document.getElementById('ai-input').value = cmd; handleSend(); };
+                suggContainer.appendChild(btn);
+            });
+
+            document.getElementById('ai-input').addEventListener('keypress', function (e) {
+                if (e.key === 'Enter') handleSend();
+            });
+
+            document.getElementById('lang-select').addEventListener('change', (e) => {
+                userLang = e.target.value;
+                speak("Language changed successfully.", userLang);
+            });
+        });
+
+        // --- AUTH & SETUP ---
+        function toggleAuthMode() {
+            isLoginMode = !isLoginMode;
+            const nameGroup = document.getElementById('auth-name-group');
+            const nameInput = document.getElementById('auth-name');
+            const submitBtn = document.getElementById('auth-submit-btn');
+            const toggleText = document.getElementById('auth-toggle-text');
+            const toggleBtn = document.getElementById('auth-toggle-btn');
+            const adminHint = document.getElementById('admin-hint');
+
+            if (isLoginMode) {
+                nameGroup.classList.add('hidden');
+                nameInput.removeAttribute('required');
+                submitBtn.textContent = 'Login to Dashboard';
+                toggleText.textContent = "Don't have an account?";
+                toggleBtn.textContent = "Sign up here";
+                adminHint.classList.remove('hidden');
+            } else {
+                nameGroup.classList.remove('hidden');
+                nameInput.setAttribute('required', 'true');
+                submitBtn.textContent = 'Create Account';
+                toggleText.textContent = "Already registered?";
+                toggleBtn.textContent = "Login here";
+                adminHint.classList.add('hidden');
+            }
+        }
+
+        // Initially show admin hint on login mode
+        document.getElementById('admin-hint').classList.remove('hidden');
+
+        document.getElementById('login-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.getElementById('auth-email').value;
+            const name = isLoginMode ? "Citizen" : document.getElementById('auth-name').value;
+            currentUser = { email, name, role: email === 'admin@ai.gov' ? 'admin' : 'citizen' };
+            
+            document.getElementById('auth-screen').classList.add('hidden');
+            document.getElementById('dashboard-screen').classList.remove('hidden');
+            
+            if(currentUser.role === 'admin') {
+                NAV_ITEMS.push({ id: 'admin', icon: 'users', label: '10. Admin Panel' });
+            }
+            
+            renderSidebar();
+            renderDataViews();
+            initVoiceEngine();
+        });
+
+        function populateSelects() {
+            const langSelect = document.getElementById('lang-select');
+            langSelect.innerHTML = LANGUAGES.map(l => `<option value="${l.code}">${l.label}</option>`).join('');
+        }
+
+        // --- RENDERERS ---
+        function renderSidebar() {
+            const nav = document.getElementById('sidebar-nav');
+            nav.innerHTML = NAV_ITEMS.map(item => `
+                <button onclick="switchTab('${item.id}')" class="w-full flex items-center gap-4 px-4 py-3.5 rounded-2xl transition-all duration-300 font-medium ${activeTab === item.id ? 'bg-[#2a162e] text-white shadow-md' : 'text-gray-400 hover:text-gray-200 hover:bg-white/5'}">
+                    <i data-lucide="${item.icon}" class="w-4 h-4 ${activeTab === item.id ? 'text-white' : 'text-gray-500'}"></i>
+                    <span class="text-[15px]">${item.label}</span>
+                </button>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        function renderDataViews() {
+            // Schemes
+            const filteredSchemes = schemesList.filter(s => s.state === userState || s.state === 'All');
+            document.getElementById('schemes-count').textContent = filteredSchemes.length;
+            document.getElementById('schemes-grid').innerHTML = filteredSchemes.map(scheme => `
+                <div class="bg-[#13091c] border border-white/5 p-7 rounded-[1.5rem] flex flex-col justify-between shadow-lg hover:border-pink-500/30 transition-all group">
+                    <div class="mb-6">
+                        <h3 class="text-[17px] font-extrabold text-white mb-3 leading-tight group-hover:text-pink-400 transition-colors">${scheme.title}</h3>
+                        <p class="text-gray-400 text-[13px] leading-relaxed line-clamp-3">${scheme.desc}</p>
+                    </div>
+                    <button onclick="showItemDetails('scheme', ${scheme.id})" class="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-90 text-white font-bold py-3.5 rounded-full text-[11px] tracking-[0.15em] uppercase transition-all">VIEW DETAILS</button>
+                </div>
+            `).join('');
+
+            // Jobs
+            document.getElementById('jobs-grid').innerHTML = JOBS.map(job => `
+                <div class="bg-[#13091c] border border-white/5 p-7 rounded-[1.5rem] flex flex-col justify-between shadow-lg hover:border-pink-500/30 transition-all group">
+                    <div class="mb-6">
+                        <h3 class="text-[17px] font-extrabold text-white mb-3 leading-tight group-hover:text-pink-400 transition-colors">${job.title}</h3>
+                        <div class="text-gray-400 text-[13px] leading-relaxed space-y-1">
+                            <p><span class="text-gray-500">Category:</span> ${job.type}</p>
+                            <p><span class="text-gray-500">Eligibility:</span> ${job.eligibility}</p>
+                            <p><span class="text-gray-500">Deadline:</span> <span class="text-pink-400 font-medium">${job.deadline}</span></p>
+                        </div>
+                    </div>
+                    <button onclick="showItemDetails('job', ${job.id})" class="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-90 text-white font-bold py-3.5 rounded-full text-[11px] tracking-[0.15em] uppercase transition-all">VIEW DETAILS</button>
+                </div>
+            `).join('');
+
+            // Education (with Images, Certificates, and Links)
+            document.getElementById('education-grid').innerHTML = COURSES.map(course => `
+                <div class="bg-[#13091c] border border-white/5 rounded-[1.5rem] flex flex-col justify-between shadow-lg hover:border-pink-500/30 transition-all group relative overflow-hidden">
+                    <img src="https://picsum.photos/seed/course${course.id}/400/200" alt="${course.title}" class="w-full h-32 object-cover rounded-t-[1.5rem] transition-transform duration-500 group-hover:scale-110" />
+                    <div class="absolute top-0 w-full h-32 bg-gradient-to-t from-[#13091c] to-transparent"></div>
+                    <div class="p-7 relative z-10 -mt-10">
+                        <div class="mb-6">
+                            <span class="text-xs font-bold text-pink-300 bg-pink-500/10 border border-pink-500/20 px-2 py-1 rounded mb-3 inline-block">${course.tag}</span>
+                            <span class="text-xs font-bold text-green-300 bg-green-500/10 border border-green-500/20 px-2 py-1 rounded mb-3 inline-block ml-2">Free Certificate</span>
+                            <h3 class="text-[17px] font-extrabold text-white mb-3 leading-tight group-hover:text-pink-400 transition-colors">${course.title}</h3>
+                            <p class="text-gray-400 text-[13px] leading-relaxed mb-4">Provider: ${course.provider}</p>
+                            <a href="#" class="text-blue-400 text-xs hover:text-blue-300 flex items-center gap-1 mb-2"><i data-lucide="external-link" class="w-3 h-3"></i> Official Course Link</a>
+                        </div>
+                        <button onclick="showItemDetails('course', ${course.id})" class="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-90 text-white font-bold py-3.5 rounded-full text-[11px] tracking-[0.15em] uppercase transition-all flex items-center justify-center gap-2">VIEW DETAILS</button>
+                    </div>
+                </div>
+            `).join('');
+
+            // Emergencies
+            document.getElementById('emergency-grid').innerHTML = EMERGENCIES.map(e => `
+                <div class="bg-[#13091c] border border-red-500/20 p-7 rounded-[1.5rem] shadow-lg flex flex-col justify-between group hover:border-red-500/50 transition-all text-center">
+                    <div class="mb-6">
+                        <span class="text-4xl font-black text-red-500 block mb-2">${e.num}</span>
+                        <h3 class="text-[15px] font-bold text-white mb-1">${e.label}</h3>
+                        <p class="text-[12px] text-gray-400">${e.desc}</p>
+                    </div>
+                    <button onclick="processAICommand('Call ${e.label}')" class="w-full bg-red-500/10 hover:bg-red-500 text-red-400 hover:text-white border border-red-500/30 font-bold py-3.5 rounded-full text-[11px] tracking-[0.15em] uppercase transition-all flex items-center justify-center gap-2">
+                        <i data-lucide="phone-call" class="w-3.5 h-3.5"></i> DIAL NOW
+                    </button>
+                </div>
+            `).join('');
+
+            lucide.createIcons();
+        }
+
+        function switchTab(tabId) {
+            activeTab = tabId;
+            document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`view-${tabId}`).classList.remove('hidden');
+            document.getElementById('header-title').textContent = tabId === 'home' ? 'STATE PORTAL' : tabId.toUpperCase();
+            
+            renderSidebar();
+        }
+
+        function showItemDetails(type, id) {
+            let item, backTab;
+            
+            if (type === 'scheme') { item = schemesList.find(s => s.id === id); backTab = 'schemes'; }
+            else if (type === 'job') { item = JOBS.find(j => j.id === id); backTab = 'jobs'; }
+            else if (type === 'course') { item = COURSES.find(c => c.id === id); backTab = 'education'; }
+
+            if(!item) return;
+            
+            // Hide all views, show details view
+            document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
+            document.getElementById('view-item-detail').classList.remove('hidden');
+            document.getElementById('header-title').textContent = `${type.toUpperCase()} DETAILS`;
+            
+            // Set Back Button logic
+            const backBtn = document.getElementById('detail-back-btn');
+            backBtn.onclick = () => switchTab(backTab);
+            backBtn.innerHTML = `<i data-lucide="arrow-left" class="w-4 h-4"></i> Back to ${backTab}`;
+
+            // Populate Details
+            document.getElementById('detail-title').textContent = item.title;
+            
+            // Dynamic generation of description if missing
+            const desc = item.desc || `This is an official ${type} provided by the government. This initiative aims to support citizens by providing necessary resources and opportunities.`;
+            document.getElementById('detail-desc').textContent = desc;
+            
+            const eligibility = item.eligibility || "Citizens meeting specific state/central criteria. Check official portal for age and income caps.";
+            document.getElementById('detail-eligibility').textContent = eligibility;
+            
+            const docs = item.documents || ['Aadhar Card', 'Recent Passport Size Photo', 'Educational Certificates', 'Bank Details / Domicile Certificate'];
+            document.getElementById('detail-docs').innerHTML = docs.map(d => `
+                <li class="bg-white/5 border border-white/10 p-3 rounded-xl flex items-center gap-3 text-sm text-gray-300">
+                    <i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i> ${d}
+                </li>
+            `).join('');
+
+            // Setup Official Link (Fixed to avoid 404 by pointing to the main portal homepage)
+            const officialUrl = `https://www.india.gov.in`;
+            const officialDisplay = `www.india.gov.in`;
+            document.getElementById('detail-official-link').href = officialUrl;
+            document.getElementById('detail-official-text').textContent = officialDisplay;
+            
+            // Apply logic routing
+            let applyCommand = type === 'course' ? `Enroll in ${item.title}` : `Apply for ${item.title}`;
+            document.getElementById('detail-apply-btn').onclick = () => processAICommand(applyCommand);
+            
+            lucide.createIcons();
+            
+            // AI Explanation (Explicitly answering: What is it, Who can apply, Documents, Links)
+            const speechExplanation = `Here are the details for ${item.title}. First, what is it? ${desc}. Second, who can apply? ${eligibility}. Third, the main documents required are ${docs[0]} and ${docs[1]}. You can click the Direct Apply button to have me verify your documents automatically, or you can click the Official Portal link on your screen to visit the real website.`;
+            speak(speechExplanation);
+        }
+
+        function handleSend() {
+            const input = document.getElementById('ai-input');
+            if(input.value.trim() && !isProcessing) {
+                processAICommand(input.value);
+                input.value = '';
+            }
+        }
+
+        function updateUIState() {
+            const homeMicGlow = document.getElementById('center-mic-glow');
+            const homeMicBtn = document.getElementById('center-mic-btn');
+            const homeMicIcon = document.getElementById('center-mic-icon');
+            const homeStatusBadge = document.getElementById('home-status-badge');
+            
+            const headerMicBtn = document.getElementById('toggle-mic-btn');
+            const headerMicIcon = document.getElementById('mic-icon');
+            const statusDot = document.getElementById('status-dot');
+            const statusText = document.getElementById('status-text');
+
+            if (isListeningUI) {
+                homeMicBtn.classList.remove('opacity-50');
+                homeMicGlow.classList.remove('opacity-0');
+                homeMicGlow.classList.add('opacity-100', 'animate-pulse');
+                homeMicIcon.setAttribute('data-lucide', 'mic');
+                homeStatusBadge.textContent = "24/7 LISTENING... (SAY 'MUTE')";
+
+                headerMicBtn.classList.remove('bg-[#1c1226]', 'border', 'border-red-500/50');
+                headerMicBtn.classList.add('bg-gradient-to-r', 'from-pink-500', 'to-purple-600', 'animate-pulse');
+                headerMicIcon.setAttribute('data-lucide', 'mic');
+                headerMicIcon.classList.remove('text-red-400');
+                headerMicIcon.classList.add('text-white');
+                statusDot.classList.replace('bg-red-500', 'bg-green-500');
+                statusDot.classList.add('animate-pulse');
+                statusText.textContent = '24/7 AI ACTIVE';
+            } else {
+                homeMicBtn.classList.add('opacity-50');
+                homeMicGlow.classList.add('opacity-0');
+                homeMicGlow.classList.remove('opacity-100', 'animate-pulse');
+                homeMicIcon.setAttribute('data-lucide', 'mic-off');
+                homeStatusBadge.textContent = "MUTED. TAP TO WAKE.";
+
+                headerMicBtn.classList.add('bg-[#1c1226]', 'border', 'border-red-500/50');
+                headerMicBtn.classList.remove('bg-gradient-to-r', 'from-pink-500', 'to-purple-600', 'animate-pulse');
+                headerMicIcon.setAttribute('data-lucide', 'mic-off');
+                headerMicIcon.classList.add('text-red-400');
+                headerMicIcon.classList.remove('text-white');
+                statusDot.classList.replace('bg-green-500', 'bg-red-500');
+                statusDot.classList.remove('animate-pulse');
+                statusText.textContent = 'MUTED';
+            }
+            
+            if(isProcessing) homeStatusBadge.textContent = "AI IS THINKING...";
+            lucide.createIcons();
+        }
+
+        // --- VOICE ENGINE ---
+        function initVoiceEngine() {
+            if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                speechRecognition = new SpeechRecognition();
+                speechRecognition.continuous = false;
+                speechRecognition.interimResults = false;
+
+                speechRecognition.onresult = (event) => {
+                    const currentTranscript = event.results[0][0].transcript.trim();
+
+                    // BARGE-IN LOGIC
+                    if (window.speechSynthesis.speaking) {
+                        const aiText = aiSpeechText.toLowerCase();
+                        const heardText = currentTranscript.toLowerCase();
+                        if (aiText.includes(heardText) || heardText.includes(aiText) || heardText.length < 4) return;
+                        window.speechSynthesis.cancel();
+                    }
+                    processAICommand(currentTranscript);
+                };
+
+                speechRecognition.onerror = (e) => {
+                    if (e.error !== 'no-speech') console.warn('Speech Error:', e.error);
+                };
+
+                speechRecognition.onend = () => {
+                    if (shouldListen && !window.speechSynthesis.speaking) {
+                        try { speechRecognition.start(); isListeningUI = true; updateUIState(); } catch(e) {}
+                    }
+                };
+
+                if (shouldListen) {
+                    try { speechRecognition.start(); isListeningUI = true; updateUIState(); } catch(e) {}
+                }
+            } else {
+                alert("Speech recognition not supported in this browser. Please use Chrome/Edge.");
+            }
+        }
+
+        function toggleListen(forceState) {
+            shouldListen = forceState !== undefined ? forceState : !shouldListen;
+            
+            if (shouldListen) {
+                try { speechRecognition?.start(); isListeningUI = true; speak("Listening mode resumed."); } catch(e){}
+            } else {
+                window.speechSynthesis.cancel();
+                speechRecognition?.stop();
+                isListeningUI = false;
+            }
+            updateUIState();
+        }
+
+        function speak(text, langCode = userLang) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = langCode;
+                
+                aiSpeechText = text;
+                document.getElementById('home-transcript').textContent = ""; 
+                
+                utterance.onend = () => {
+                    if (shouldListen) {
+                        try { speechRecognition?.start(); isListeningUI = true; updateUIState(); } catch(e){}
+                    }
+                };
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function processAICommand(text) {
+            if (!text.trim()) return;
+            window.speechSynthesis.cancel();
+            
+            isProcessing = true;
+            updateUIState();
+            
+            document.getElementById('home-transcript').textContent = `"${text}"`;
+            
+            const lowerText = text.toLowerCase();
+            
+            setTimeout(() => {
+                isProcessing = false;
+                updateUIState();
+                
+                // 1. Controls
+                if (lowerText.includes('mute') || lowerText.includes('sleep')) { speak("Muting microphone. Click mic to wake."); toggleListen(false); return; }
+                if (lowerText.includes('logout')) { speak("Logging you out."); setTimeout(() => window.location.reload(), 2000); return; }
+
+                // 2. Languages
+                if (lowerText.includes('hindi')) { userLang = 'hi-IN'; document.getElementById('lang-select').value = userLang; speak("मैंने भाषा को हिंदी में बदल दिया है।", 'hi-IN'); return; }
+
+                // 3. Schemes Logic (Update, Read, Details & Apply)
+                if (lowerText.includes('update schemes') || lowerText.includes('new schemes') || lowerText.includes('train ml')) {
+                    switchTab('schemes');
+                    speak("Activating AI Machine Learning scraper to check for new available schemes... Please wait.");
+                    isProcessing = true; updateUIState();
+                    setTimeout(() => {
+                        isProcessing = false; updateUIState();
+                        const newScheme = { id: Date.now(), state: userState, title: `AI Extracted Scheme ${Math.floor(Math.random()*1000)}`, desc: 'Brand new scheme extracted by ML from latest government sites.', tags: ['New', 'AI Detected'] };
+                        schemesList.unshift(newScheme);
+                        renderDataViews();
+                        speak(`Machine learning train update complete! Found a new scheme called ${newScheme.title} and updated the website automatically.`);
+                    }, 3500);
+                    return;
+                }
+                
+                if (lowerText.includes('read schemes') || lowerText.includes('read all schemes')) {
+                    switchTab('schemes');
+                    speak(`There are ${schemesList.length} government schemes available in the database. Some of the top ones are: ${schemesList[0].title}, ${schemesList[1].title}, and ${schemesList[2].title}. You can ask me to open or apply for any of them.`);
+                    return;
+                }
+                
+                if (lowerText.includes('open schemes') || lowerText.includes('yojana')) { switchTab('schemes'); speak(`Opening Government Schemes. You can see all ${schemesList.length} schemes here. Say 'Read all schemes' to hear them.`); return; }
+
+                // Open Specific Details (Schemes, Jobs, or Courses) - Smart Matching
+                if (lowerText.includes('open') || lowerText.includes('explain') || lowerText.includes('what is') || lowerText.includes('details')) {
+                    
+                    // Check Schemes
+                    let match = schemesList.find(s => {
+                        const t = s.title.toLowerCase();
+                        return lowerText.includes(t) || (t.split(' ').length >= 2 && lowerText.includes(t.split(' ').slice(0,2).join(' ')));
+                    });
+                    if (match) { showItemDetails('scheme', match.id); return; }
+
+                    // Check Jobs
+                    match = JOBS.find(j => {
+                        const t = j.title.toLowerCase();
+                        return lowerText.includes(t) || (t.split(' ').length >= 2 && lowerText.includes(t.split(' ').slice(0,2).join(' ')));
+                    });
+                    if (match) { showItemDetails('job', match.id); return; }
+
+                    // Check Courses
+                    match = COURSES.find(c => {
+                        const t = c.title.toLowerCase();
+                        return lowerText.includes(t) || (t.split(' ').length >= 2 && lowerText.includes(t.split(' ').slice(0,2).join(' ')));
+                    });
+                    if (match) { showItemDetails('course', match.id); return; }
+                }
+
+                // 4. Education Logic
+                if (lowerText.includes('open education') || lowerText.includes('skill') || lowerText.includes('course')) { 
+                    switchTab('education'); 
+                    speak("Opening Skill Development. I have 30 free certificate courses loaded with their official links. What do you want to learn? For example, say 'I want to learn Graphic Design'."); 
+                    return; 
+                }
+                if (lowerText.includes('i want to learn') || lowerText.includes('teach me')) {
+                    switchTab('education');
+                    const subject = lowerText.replace('i want to learn', '').replace('teach me', '').trim();
+                    speak(`Great. I am recommending free certificate courses for ${subject}. You can view the courses, images, and official links on your screen. To enroll, just ask me 'How to enroll in this course'.`);
+                    return;
+                }
+                if (lowerText.includes('how to enroll') || lowerText.includes('enroll in')) {
+                    switchTab('education');
+                    speak("To enroll, I will automatically send the official course link and enrollment instructions to your registered email. Once you complete the modules, you will receive your free verified certificate. Let me process that for you now... Done!");
+                    return;
+                }
+
+                // 5. Jobs & Scholarships Document Checking Logic & Scheme Apply Logic
+                if (lowerText.includes('apply for') || lowerText.includes('move further with')) {
+                    // Check if it's a job
+                    const jobMatch = JOBS.find(j => {
+                        const t = j.title.toLowerCase();
+                        return lowerText.includes(t) || (t.split(' ').length >= 2 && lowerText.includes(t.split(' ').slice(0,2).join(' ')));
+                    });
+                    if (jobMatch) {
+                        switchTab('jobs');
+                        speak(`First, let me check your documents to ensure you are eligible for ${jobMatch.title}... Scanning your Smart Vault... I see your Aadhar Card is verified, but your 10th Marksheet is currently missing. I cannot apply directly until you upload the missing document. Please upload it in the Smart Alerts tab.`);
+                        return;
+                    }
+                    
+                    // Check if it's a scheme
+                    const schemeMatch = schemesList.find(s => {
+                        const t = s.title.toLowerCase();
+                        return lowerText.includes(t) || (t.split(' ').length >= 2 && lowerText.includes(t.split(' ').slice(0,2).join(' ')));
+                    });
+                    if (schemeMatch) {
+                        switchTab('schemes');
+                        speak(`You selected ${schemeMatch.title}. Moving further with this scheme... Analyzing your documents... Your profile matches! Submitting your application directly.`); 
+                        return; 
+                    }
+                }
+                if (lowerText.includes('open jobs') || lowerText.includes('scholarship')) { switchTab('jobs'); speak(`Opening Jobs & Scholarships. Here are ${JOBS.length} opportunities. Say 'Apply for [Job Name]' and I will first check all your required documents before applying directly.`); return; }
+                
+                // 6. Emergencies Dynamic Mapping
+                if (lowerText.includes('call') || lowerText.includes('dial') || lowerText.includes('emergency')) {
+                    const emergencyMatch = EMERGENCIES.find(e => lowerText.includes(e.label.toLowerCase()) || lowerText.includes(e.num));
+                    if (emergencyMatch) {
+                        switchTab('emergency');
+                        speak(`Emergency triggered. Calling ${emergencyMatch.label} on ${emergencyMatch.num} immediately. Connecting now...`);
+                        return;
+                    }
+                    if (lowerText.includes('emergency') || lowerText.includes('sos')) { 
+                        switchTab('emergency'); 
+                        speak("Opening Emergency SOS panel. Tell me who you need to call, like 'Call Cyber Crime' or 'Call Ambulance'."); 
+                        return; 
+                    }
+                }
+
+                // 7. Navigation
+                if (lowerText.includes('home') || lowerText.includes('assistant')) { switchTab('home'); speak("Returning to Voice Dashboard."); return; }
+                if (lowerText.includes('open scam') || lowerText.includes('fraud')) { switchTab('scam'); speak("Opening Scam Detector."); return; }
+                if (lowerText.includes('open alert') || lowerText.includes('vault')) { switchTab('docs'); speak("Opening Document Vault."); return; }
+                if (lowerText.includes('find hospital')) { switchTab('location'); speak("The closest Govt Hospital is 1.2 kilometers away."); return; }
+                
+                speak(`I heard: "${text}". Try commands like 'Explain PM Kisan', 'Open Education', or 'Apply for SSC CGL'.`);
+            }, 1500);
+        }
+
+    </script>
+</body>
 </html>
